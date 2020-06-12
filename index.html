@@ -2,33 +2,42 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>pwdgen</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <!-- NOME-->
-    <div>
-      <h3>Nome inserito:</h3>
-      <p id="name"></p>
-    </div>
-    <!-- COGNOME -->
-    <div>
-      <h3>Cognome inserito:</h3>
-      <p id="surname"></p>
-    </div>
-    <!-- COLORE -->
-    <div>
-      <h3>Colore inserito:</h3>
-      <p id="color"></p>
-    </div>
-    <!-- PASSWORD -->
-    <div>
-      <h3>Password generata:</h3>
-      <p id="result"></p>
-    </div>
 
-    <script type="text/javascript" src="js/script.js">
+    <section class="psw-gen">
+      <!-- NOME -->
+      <div>
+        <h3>Nome inserito:</h3>
+        <p id="name"></p>
+      </div>
+      <!-- COGNOME -->
+      <div>
+        <h3>Cognome inserito:</h3>
+        <p id="surname"></p>
+      </div>
+      <!-- COLORE -->
+      <div>
+        <h3>Colore inserito:</h3>
+        <p id="color"></p>
+      </div>
+      <!-- PASSWORD -->
+      <div>
+        <h3>Password generata:</h3>
+        <div class="password">
+          <p id="result"></p>
+          <span>Copiato!</span>
+        </div>
 
-    </script>
+      </div>
+
+      <script type="text/javascript" src="js/script.js">
+
+      </script>
+    </section>
+
 
   </body>
 </html>
