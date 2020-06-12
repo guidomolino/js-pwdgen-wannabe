@@ -1,16 +1,16 @@
 //input nome
 
-var nome = prompt ("Nome:")
+var nome = prompt ("Il tuo nome:")
 
 //input cognome
 
-var cognome = prompt("Cognome:")
+var cognome = prompt("Il tuo cognome:")
 
 //input colore
 
-var colore = prompt ("Colore:")
+var colore = prompt ("Il tuo colore preferito:")
 
-//inserimento input
+//output dell'utente
 
 document.getElementById("name").innerHTML = nome;
 
@@ -22,6 +22,6 @@ document.getElementById("color").innerHTML = colore;
 
 var password = nome + cognome + colore;
 
-//inserimento password
+//output password
 
 document.getElementById("result").innerHTML = password;
